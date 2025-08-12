@@ -24,13 +24,13 @@ const LandingPage = () => {
   bg-gradient-to-r from-gray-900 via-gray-700 to-black bg-clip-text text-transparent">       The Smarter Way to Hire and Get Hired  
           <span className="flex items-center gap-2 sm:gap-6">
             <img
-              src="/finalfinal.png"
+              src="/finalresult.png"
               className="h-14 sm:h-24 lg:h-32"
               alt=" Logo"
             />
           </span>
         </h1>
-        <p className="text-black-300 sm:mt-4 text-xs sm:text-xl">
+        <p className="text-black-300 sm:mt-4 text-xs sm:text-xl text-bold">
           Axiom Hire presents opportunities for job seekers and employers to connect and grow    </p>
       </section>
       <div className="flex gap-6 justify-center">
@@ -66,7 +66,7 @@ const LandingPage = () => {
         </CarouselContent>
       </Carousel>
 
-      <img src="/.jpg" className="w-full" />
+      <img src="/banner123.webp" className="w-full" />
 
       <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <Card>
