@@ -87,7 +87,7 @@ const JobListing = () => {
           name="search-query"
           className="h-full flex-1  px-4 text-md"
         />
-        <Button type="submit" className="h-full sm:w-28" variant="blue">
+        <Button type="submit" className="h-full sm:w-28" variant="black">
           Search
         </Button>
       </form>
@@ -131,7 +131,7 @@ const JobListing = () => {
         </Select>
         <Button
           className="sm:w-1/2"
-          variant="destructive"
+          variant="black"
           onClick={clearFilters}
         >
           Clear Filters

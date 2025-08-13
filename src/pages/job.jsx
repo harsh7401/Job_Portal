@@ -82,7 +82,7 @@ const JobPage = () => {
       {job?.recruiter_id === user?.id && (
         <Select onValueChange={handleStatusChange}>
           <SelectTrigger
-            className={`w-full ${job?.isOpen ? "bg-green-950" : "bg-red-950"}`}
+            className={`w-full ${job?.isOpen ? "bg-green-700" : "bg-red-600"}`}
           >
             <SelectValue
               placeholder={
@@ -105,7 +105,7 @@ const JobPage = () => {
       </h2>
       <MDEditor.Markdown
         source={job?.requirements}
-        className="bg-transparent sm:text-lg" // add global ul styles - tutorial
+        className="bg-transparent sm:text-lg text-black" // add global ul styles - tutorial
       />
       {job?.recruiter_id !== user?.id && (
         <ApplyJobDrawer

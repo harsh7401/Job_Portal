@@ -140,7 +140,7 @@ export function ApplyJobDrawer({ user, job, fetchJob, applied = false }) {
           <Input
             type="file"
             accept=".pdf, .doc, .docx"
-            className="flex-1 file:text-black"
+            className="flex-1 file:text-gray-500"
             {...register("resume")}
           />
           {errors.resume && (
