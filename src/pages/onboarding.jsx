@@ -41,14 +41,14 @@ const Onboarding = () => {
       </h2>
       <div className="mt-16 grid grid-cols-2 gap-4 w-full md:px-40">
         <Button
-          variant="blue"
+          variant="black"
           className="h-36 text-2xl"
           onClick={() => handleRoleSelection("candidate")}
         >
           Candidate
         </Button>
         <Button
-          variant="destructive"
+          variant="black"
           className="h-36 text-2xl"
           onClick={() => handleRoleSelection("recruiter")}
         >
